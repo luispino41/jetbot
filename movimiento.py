@@ -3,11 +3,11 @@ import time
 import threading
 
 # Configuración de pines
-ENCODER_A = 18  # Pin GPIO de la Jetson Nano
-ENCODER_B = 23  # Pin GPIO de la Jetson Nano
-BUTTON_MOD = 24  # Pin GPIO de la Jetson Nano
+ENCODER_A = 18  
+ENCODER_B = 23  
+BUTTON_MOD = 24  
 
-POT_PIN = 0    # Necesitarás un ADC para leer el potenciómetro en Jetson Nano
+POT_PIN = 0    
 
 M1Pin = 16
 M2Pin = 21
